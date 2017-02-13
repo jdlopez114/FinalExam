@@ -12,29 +12,26 @@
         android:id="@+id/username_et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username"
+        android:hint="@string/usernameHint"
         android:imeOptions="actionDone"
-        android:inputType="textAutoCorrect"
         android:maxLines="1"
-        android:textSize="30sp" />
+        />
 
     <EditText
         android:id="@+id/password_et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="@string/passwordHint"
         android:imeOptions="actionDone"
-        android:inputType="textAutoCorrect"
-        android:maxLines="1"
-        android:textSize="30sp" />
+        android:maxLines="1" />
 
     <Button
         android:id="@+id/submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="LOG IN"
-        android:textSize="30sp" />
+        android:text="@string/log_in"
+       />
 
 
 </LinearLayout>

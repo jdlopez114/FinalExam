@@ -16,8 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProfileActivity"/>
-
-        <activity android:name=".SettingsScreenActivity"/>
+        <activity android:name=".SettingsActivity"/>
 
     </application>
 
